@@ -1,4 +1,4 @@
-mport requests
+import requests
 
 from flask import Flask
 from flask_restful import Resource, Api, request
@@ -15,8 +15,8 @@ JOB_QUEUE_LOCK = Lock()
 CC = 0
 CC_COUNT = 0
 CC_LOCK = Lock()
-COMMIT_LIST_URL = 'https://api.github.com/repos/Manik459/Chat_SocketP/commits'
-FILES_LIST_URL = 'https://api.github.com/repos/Manik459/Chat_SocketP/git/trees/{}'
+COMMIT_LIST_URL = 'https://api.github.com/repos/Ujjwalaroraa/client_server1/commits'
+FILES_LIST_URL = 'https://api.github.com/repos/Ujjwalaroraa/client_server1/git/trees/{}'
 TOTAL_COMMITS = 0
 TOTAL_WORKERS = 0
 TOTAL_WORKERS_LOCK = Lock()
