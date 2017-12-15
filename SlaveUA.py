@@ -15,8 +15,8 @@ class Slave:
     every file in the given commit and returns the average value to the Master.
     The Slave asks for work forever until the list of commits has been exhausted
     '''
-    master_url = 'http://192.168.1.6:4000/'
-    node_setup_url = 'http://192.168.1.6:4000/init'
+    master_url = 'http://172.16.51.128/'
+    node_setup_url = 'http://172.16.51.128/init'
 
     cc_path = ['./tmp']
     cc_config = Config(
